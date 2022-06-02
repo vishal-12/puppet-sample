@@ -1,0 +1,7 @@
+I am a fact. The OS os thid node is:<%= $facts[osfamily] %>
+I am a class variable from testtemplate: <%= $testtemplate::classvariable %>
+I am a class variable from testtemplate::newclass: <%= $testtemplate::newclass::newclassvariable %>
+New variable from site.pp: <%= $siteppvariable %>
+I am a class variable from sample: <%= $sample::otherclassvariable %>
+var: <%= $var1 %>
+var2 <%= $var2 %>

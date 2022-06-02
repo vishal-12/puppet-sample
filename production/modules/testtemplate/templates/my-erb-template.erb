@@ -1,0 +1,6 @@
+
+I am fact. This is the OS of the node: <%= @osfamily %>
+I am a class Variable testtemplate: <%= @classvariable %>
+I am a class from a new class module: <%= scope.lookupvar('testtemplate::newclass::newclassvaraible') %>
+New variable from site.pp: <%= @siteppvariable %>
+I am a class from a new class module: <%= scope.lookupvar('sample::otherclassvariable') %>
